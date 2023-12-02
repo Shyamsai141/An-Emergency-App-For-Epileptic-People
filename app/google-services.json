@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "998152101951",
+    "project_id": "login-register-firebase-924a1",
+    "storage_bucket": "login-register-firebase-924a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:998152101951:android:ee5d2e972aaca1371a988a",
+        "android_client_info": {
+          "package_name": "com.example.epicare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSeqRKrIn6Fc0epV-pgOeLOSmeIE96Stk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:998152101951:android:31ba1c042972574a1a988a",
+        "android_client_info": {
+          "package_name": "com.example.original"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSeqRKrIn6Fc0epV-pgOeLOSmeIE96Stk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

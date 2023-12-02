@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Original</string>
+    <string name="sorry" />
+    <string name="Epicare" />
+    <string name="epicare">Epicare</string>
+    <string name="Settings">Settings\n</string>
+    <string name="logout">logout</string>
+    <string name="Help">Help</string>
+    <string name="MedicalReport">Medical Report</string>
+    <string name="Profile">Profile</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>
