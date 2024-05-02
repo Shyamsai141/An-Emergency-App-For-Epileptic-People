@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TAC">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+        android:id="@+id/termsAndConditionsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar"
+        android:padding="16dp"
+        android:text="1. Acceptance of Terms\n\n
+        By accessing or using the “EPICARE”, you agree to be bound by these “Terms and Conditions”. If you do not agree to these Terms, please refrain from using the App.\n\n
+        2. Use of the App\n\n
+        2.1. The App is intended for informational and educational purposes only. It is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.\n\n
+        2.2. You acknowledge that the App may not be error-free and that the information provided within the App may not always be accurate, complete, or current. We do not warrant the accuracy or reliability of any information obtained through the App.\n\n
+        3. User Accounts\n\n
+        3.1. In order to access certain features of the App, you may be required to create an account. You agree to provide accurate, current, and complete information during the registration process and to update such information to keep it accurate, current, and complete.\n\n
+        3.2. You are solely responsible for maintaining the confidentiality of your account and password and for restricting access to your device. You agree to accept responsibility for all activities that occur under your account or password.\n\n
+        4. Privacy Policy\n\n
+        4.1. Your privacy is important to us. Please review our Privacy Policy, which governs the use of personal information collected from you in connection with your use of the App. By using the App, you consent to the collection and use of your personal information as described in the Privacy Policy.\n\n
+        5. Intellectual Property Rights\n\n
+        5.1. All content and materials available on the App, including but not limited to text, graphics, logos, button icons, images, audio clips, and software, are the property of EPICARE or its licensors and are protected by copyright, trademark, and other intellectual property laws.\n\n
+        5.2. You may not modify, copy, reproduce, republish, upload, post, transmit, or distribute any portion of the content or materials on the App without the prior written consent of [Your Company Name].\n\n
+        6. Limitation of Liability\n\n
+        6.1. To the fullest extent permitted by applicable law, EPICARE shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses, resulting from (i) your access to or use of or inability to access or use the App; (ii) any conduct or content of any third party on the App; (iii) any content obtained from the App; or (iv) unauthorized access, use, or alteration of your transmissions or content.\n\n
+        7. Modifications to Terms\n\n
+        7.1. EPICARE reserves the right to modify or amend these Terms at any time without prior notice. Your continued use of the App following the posting of changes to these Terms will constitute your acceptance of such changes.\n\n
+        8. Governing Law\n\n
+        8.1. These Terms shall be governed by and construed in accordance with the laws of INDIA, without regard to its conflict of law provisions.\n\n
+        9. Contact Information\n\n
+        9.1. If you have any questions about these Terms, please contact us at CONTACT@EPICARE.COM."
+        android:textSize="16sp" />
+
+    </RelativeLayout>
+
+</ScrollView>

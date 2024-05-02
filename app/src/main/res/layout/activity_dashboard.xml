@@ -9,7 +9,8 @@
     android:fitsSystemWindows="true"
     tools:openDrawer="start">
 
-    <com.google.android.material.navigation.NavigationView
+
+   <com.google.android.material.navigation.NavigationView
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:id="@+id/nav_view"
@@ -26,56 +27,87 @@
             layout="@layout/toolbar" />
 
 
-        <EditText
-            android:id="@+id/name"
-            android:layout_width="300dp"
-            android:layout_height="50dp"
-            android:layout_marginStart="50dp"
-            android:layout_marginTop="380dp"
-            android:background="@drawable/custome"
-            android:drawableStart="@drawable/baseline_person_24"
-            android:drawablePadding="8dp"
-            android:hint="Name"
-            android:padding="8dp"
-            android:textColor="@color/black" />
+        <ImageView
+            android:id="@+id/sosButton"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/newsos"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/toolbar"/>
 
-        <EditText
-            android:id="@+id/mobile"
-            android:layout_width="300dp"
-            android:layout_height="50dp"
-            android:layout_marginStart="50dp"
-            android:layout_marginTop="450dp"
-            android:background="@drawable/custome"
-            android:drawableStart="@drawable/baseline_phone_24"
-            android:drawablePadding="8dp"
-            android:hint="Mobile"
-            android:padding="8dp"
-            android:textColor="@color/black" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="20dp"
+            android:layout_below="@id/sosButton"
+            android:padding="10dp"
+            android:background="@drawable/custom_edittext">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:gravity="center_horizontal">
 
-        <EditText
-            android:id="@+id/location"
-            android:layout_width="300dp"
-            android:layout_height="50dp"
-            android:layout_marginStart="50dp"
-            android:layout_marginTop="520dp"
-            android:background="@drawable/custome"
-            android:drawableStart="@drawable/baseline_location_on_24"
-            android:drawablePadding="8dp"
-            android:hint="Location"
-            android:padding="8dp"
-            android:textColor="@color/black" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/name"
+                    android:background="@drawable/custome"
+                    android:drawableStart="@drawable/baseline_person_24"
+                    android:drawablePadding="8dp"
+                    android:hint="name"
+                    android:enabled="false"
+                    android:textColorHint="@color/black"
+                    android:padding="8dp"
+                    android:textColor="@color/black"
+                    android:textColorHighlight="@color/cardview_dark_background" />
 
-        <ImageButton
-            android:id="@+id/imageButton"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_marginStart="150dp"
-            android:backgroundTint="@color/white"
-            android:layout_marginTop="150dp"
-            android:layout_marginEnd="150dp"
-            android:layout_marginBottom="150dp"
-            android:src="@drawable/sos" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/mobile"
+                    android:background="@drawable/custome"
+                    android:drawableStart="@drawable/baseline_phone_24"
+                    android:drawablePadding="8dp"
+                    android:hint="mbobile"
+                    android:enabled="false"
+                    android:textColorHint="@color/black"
+                    android:padding="8dp"
+                    android:textColor="@color/black"
+                    android:textColorHighlight="@color/cardview_dark_background" />
 
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:id="@+id/location"
+                    android:background="@drawable/custome"
+                    android:drawableStart="@drawable/baseline_location_on_24"
+                    android:drawablePadding="8dp"
+                    android:hint="location"
+                    android:enabled="false"
+                    android:textColorHint="@color/black"
+                    android:padding="8dp"
+                    android:textColor="@color/black"
+                    android:textColorHighlight="@color/cardview_dark_background" />
+
+                <TextView
+                    android:id="@+id/locationTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="50dp"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/addressTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
 
     </RelativeLayout>
 </androidx.drawerlayout.widget.DrawerLayout>
